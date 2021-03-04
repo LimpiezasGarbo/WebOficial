@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Limpiezas Gabo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <script type="text/javascript" src="lib/jquery.js" charset="utf-8"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <input type="checkbox" name="" id="check" class="check">
+            <div class="nav-brand"><!-- FLEX 1 -->
+                <!-- <h3 class="logo">Limpiezas <span>GABO</span></h3> -->
+                <img class="imgLogo" src="imgs/logo.png" alt="Limpiezas GARBO">
+                <a class="logo" href="#">Limpiezas <span>GARBO</span></a>           
+            </div>
+            <div class="nav-items"><!-- FLEX 3 -->
+                <div class="nav-links"> <!-- FLEX 2 -->
+                    <ul>
+                        <li class="nav-link" style="--i: .1s"><a class="closeMenu" href="#conocenos">Somos</a></li>
+                        <li class="nav-link" style="--i: 0.3s">                            
+                            <a href="#servicios" class="closeMenu">Servicios</a><!-- <i class="fas fa-caret-down"></i> -->
+                        </li>
+                        <!-- <li class="nav-link" style="--i: .5s"><a class="closeMenu" href="#trabajos">Trabajos</a></li> -->
+                        <li class="nav-link" style="--i: .6s"><a class="closeMenu" href="#contacto">Contacto</a></li>       
+                    </ul>
+                </div>
+                <div class="contactnum" style="--i: .7s">
+                    <a href="tel:672745797"><i class="fas fa-phone-alt"></i> 675897456</a>
+                </div>
+                <!-- <div class="nav-social" style="--i: 1.5s">          
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>                  
+                </div> -->
+            </div>
+            <div class="nav-toggle-container"><!-- FLEX 1 DISPLAY NONE BIGGER SCREENS -->
+                <div class="nav-toggle">
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header> 
+    <section class="banner" id="banner">
+        <!-- <div class="imgBx">
+            <img class="imgBrand" src="imgs/logo.jpg" alt="Limpiezas GARBO LOGO">
+        </div> -->
+        <div class="content">
+            <h2>¿Necesitas ayuda profesional?</h2>
+            <h3>¿Búscas profesionales de la limpieza en Tudela y alrededores?</h3>
+            <a type="button" class="btn" href="#conocenos">EXPLORA</a>
+        </div>
+        <div class="contactBxMobile">
+            <a href="whatsapp://send?phone=34672745797&text=Me gustaría recibir más información sobre sus servicios"><img src="imgs/whatsapp.png" alt="Envíanos un Whatsapp"/></a>
+        </div>
+        <div class="contactBxDesktop">
+            <a style="display: flex;" href="https://api.whatsapp.com/send?phone=34672745797&text=Me gustaría recibir más información sobre sus servicios" target="_blank"><img src="imgs/whatsapp.png" alt="Contacta por Whatsapp" title="Contactanos por Whatsapp"></a>
+            <p>Envíanos un WhatsApp</p>
+        </div>
+        <div  class="scrollTop">
+            <a href="#"><i class="fas fa-angle-up"></i></a>
+        </div>
+    </section>
+    
+    <section class="about" id="conocenos">
+        <div class="wrapper">
+            <div class="contentBx">
+                <h1 class="logo">Limpiezas <span>GARBO</span></h1>
+                <h2 style="color: var(--text-gray);"> ¿Quiénes somos?</h2>
+                <p class="text"><strong class="logosm">Limpiezas  <span>GARBO</span></strong> somos una empresa familiar dedicada a todo tipo de servicios del <strong>sector de la limpieza en Tudela y alrededores.</strong></p>
+
+                <p class="text">Nos trasladamos por toda la <strong>ribera de Navarra</strong> para que pueda llevar a cabo la limpieza de sus instalaciones, el mantenimiento de su negocio o comunidad de propietarios, o el abrillantado y pulido de suelos de cualquier material.</p>
+
+                <h3 style="color: var(--text-gray);">¿Necesitas ayuda?</h3>
+                <p class="text">Contamos con un equipo profesional de lo más cualificado y con una amplia experiencia que resolverá tus dudas y te ofrecerá el mejor servicio garantizado a unos <strong>precios sin competencia.</strong></p>
+
+                <p class="text"> Ofrecemos servicios de limpieza y mantenimiento de <strong>oficinas, edificios, locales, naves, comunidad de propietarios, garajes, parkings y zonas exteriores</strong> en <strong>Tudela y alrededores</strong>.</p>                
+                <p class="text">Consulta nuestras tarifas y <a href="#contacto">pídenos presupuesto gratuito</a> sin compromiso.</p> 
+            </div>
+            <div class="imgBx">
+                <img id="imgBrand" class="imgBrand" src="imgs/limpiezasgarbo.jpg" alt="Servicios Limpiezas GARBO">
+            </div>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+        </div> 
+    </section>
+    <div class="parallax2">
+        <!-- <div class="imgBx">
+            <img src="imgs/limpiezasgarbo.jpg" alt="">
+        </div> -->
+    </div>
+    <section class="services" id="servicios">
+        <div class="headingBx">
+            <h2 class="heading">NUESTROS SERVICIOS</h2>   
+            <p class="text">En  <strong class="logosm">Limpiezas <span>GARBO</span></strong> ofrecemos un servicio personalizado para cada cliente. <br><br>En caso de no encontrar un servicio que se adecúe a lo que esté búscando, no lo dude y contacte con nosotros. Estaremos encantados de poder ofrecerle el mejor servicio.</p>
+            <a href="#contacto" type="button" class="btn">Te asesoramos</a>
+        </div>
+        <div class="wrapper">
+            <div class="card">
+                <div class="imgBx" style="overflow: hidden;">
+                    <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80" alt="Limpieza Casas Particulares">
+                </div>            
+                <div class="container">
+                    <h3 class="heading">Casas particulares</h3>
+                    <p class="text">Ofrecemos limpieza <strong>integral</strong> o <strong>parcial</strong> de viviendas particulares. <br>
+                    Hacemos que tu vivienda luzca impecable como el primer día.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="https://images.unsplash.com/photo-1598287218398-3c0b5de45d57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="Limpieza Naves, Locales y Almacenes">
+                </div>                
+                <div class="container">
+                    <h3 class="heading">Naves, locales y almacenes</h3>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquam sunt ex sequi tempore commodi tempora fuga autem et suscipit.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="https://images.unsplash.com/photo-1431540015161-0bf868a2d407?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Limpieza Oficinas">
+                </div>               
+                <div class="container">
+                    <h3 class="heading">Oficinas</h3>
+                    <p class="text">Ofrecemos <strong>limpieza de mantenimiento</strong> de oficinas.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="https://images.unsplash.com/flagged/photo-1556438758-872c68902f60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80" alt="Limpieza Fin de Obra">
+                </div>                
+                <div class="container">
+                    <h3 class="heading">Fin de obra</h3>
+                    <p class="text"><strong>¿Necesitas un limpieza integral tras una reforma?</strong><br>
+                    En <strong class="logosm">LIMPIEZAS <span>GARBO</span></strong> ofrecemos el mejor servicio para limpiezas de final de obra.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="https://images.unsplash.com/photo-1572701203787-6e3f196126cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="Limpieza Comunidades y Garajes">
+                </div>               
+                <div class="container">
+                    <h3 class="heading">Comunidades y garajes</h3>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquam sunt ex sequi tempore commodi tempora fuga autem et suscipit.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="https://mastercleaners.com.au/wp-content/uploads/2019/05/Window-cleaner-Melbourne-washing-glass.jpg" alt="Limpieza Cristales y Persianas">
+                </div>                
+                <div class="container">
+                    <h3 class="heading">Cristales y persianas</h3>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquam sunt ex sequi tempore commodi tempora fuga autem et suscipit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="main" id="main"></main>
+    </main>
+    <div class="parallax"></div>
+    <!-- <section class="jobs" id="trabajos">
+
+    </section> -->
+    <section class="contact" id="contacto">
+        <div class="wrapper">
+            <div class="info">
+                <h2 class="heading">ESCRÍBENOS UN MENSAJE</h2>
+                <h3>Pide presupuesto sin compromiso</h3>
+                <p class="text">Contacta con nosotros por<strong> teléfono, via Whatsapp</strong> o envíanos un <strong>email</strong> y solicita tu presupuesto sin compromiso.
+                   <br> Nuestro equipo estará encantado de atenderte y darte asesoramiento personalizado.                   
+                <br><span>¡Te esperamos!</span></p>
+                
+            </div>
+            <div class="info2">
+                <a href="https://www.google.es/maps/place/Calle+Entrefuentes,+1,+31500+Tudela,+Navarra/@42.0569045,-1.6079745,17z/data=!3m1!4b1!4m5!3m4!1s0xd5a4f4fd4e417e7:0x63431ebf3268373e!8m2!3d42.0569045!4d-1.6057858" target="_blank"><i class="fas fa-map-marker-alt"></i> C/Entrefuentes, 1. Tudela, Navarra</a>
+                <a href="tel:672745797"><i class="fas fa-phone-alt"></i> 675897456</a>
+                <a class="text" href="whatsapp://send?phone=34672745797&text=¡Hola!, ¡Limpiezas GARBO! Me gustaría recibir más información sobre sus servicios." target="_blank"><i class="fab fa-whatsapp"></i>675897456</a>
+                <a class="text" href="https://api.whatsapp.com/send?phone=34672745797&text=¡Hola!, ¡Limpiezas GARBO! Me gustaría recibir más información sobre sus servicios." target="_blank"><i class="fab fa-whatsapp"></i>675897456</a>
+                <a href="mailto:sanchez.lop.adrian@gmail.com" class="text"><i class="fas fa-at"></i>info@limpiezasgarbo.com</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <!-- <div class="footerBx">
+        </div> -->
+        <div class="wrapperFooter">
+            <div class="contentBx">         
+                <div class="maininfo">
+                    <h2 class="heading">HORARIO</h2>
+                    <p class="text">Lunes a Viernes: 8:00 a 20:00</p>
+                    <p class="text">Sábado: 8:00 a 13:00</p>
+                </div>
+                <div class="schedule">
+                    <h2 class="heading">CONTACTO</h2>
+                    <p class="text">Lunes a Viernes: 8:00 a 20:00</p>
+                    <p class="text">Sábado: 8:00 a 13:00</p>
+                </div>
+                <div class="address">
+                    <h2 class="heading">DIRECCIÓN</h2>
+                    <p class="text">Lunes a Viernes: 8:00 a 20:00</p>
+                    <p class="text">Sábado: 8:00 a 13:00</p>
+                </div>
+            </div>
+            <div class="copyrightBx">
+                <p><a href="">Aviso legal</a></p>
+                <p>|</p>
+                <p><a href="">  Política de privacidad</a></p>
+                <p>|</p>
+                <p>Copyright @ 2020 Limpiezas Garbo</p>
+                <p>|</p>
+                <p>Designed by </p><p><a href="mailto:sanchez.lop.adrian@gmail.com"> Adrián Sánchez</a></p>
+            </div>
+        </div>       
+    </footer>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
